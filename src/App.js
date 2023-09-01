@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from './container/Header/Header';
+import Heading from './container/Heading/Heading';
 import AboutUs from './container/AboutUs/AboutUs';
 import Menu from './container/Menu/Menu';
 import Chef from './container/Chef/Chef';
@@ -13,7 +13,6 @@ import Footer from './container/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 
 import './App.css';
-import './index.css';
 
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Header />
+      <Heading />
       <AboutUs />
       <Menu />
       <Chef />
